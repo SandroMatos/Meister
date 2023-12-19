@@ -11,12 +11,12 @@ use Laminas\ServiceManager\Factory\InvokableFactory;
 return [
     'router' => [
         'routes' => [
-            'home' => [
+            'login' => [
                 'type'    => Literal::class,
                 'options' => [
                     'route'    => '/',
                     'defaults' => [
-                        'controller' => Controller\IndexController::class,
+                        'controller' => Controller\LoginController::class,
                         'action'     => 'index',
                     ],
                 ],
@@ -36,6 +36,7 @@ return [
     'controllers' => [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
+            Controller\LoginController::class => InvokableFactory::class
         ],
     ],
     'view_manager' => [

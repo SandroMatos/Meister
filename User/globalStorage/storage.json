@@ -1708,11 +1708,11 @@
             "folder": "file:///home/diego/meisters",
             "backupPath": "/home/diego/meisters/Backups/ba813d4ea8445dba145011926ba9520d",
             "uiState": {
-                "mode": 1,
-                "x": 1681,
-                "y": 164,
-                "width": 1024,
-                "height": 791
+                "mode": 0,
+                "x": 1857,
+                "y": 617,
+                "width": 671,
+                "height": 327
             }
         },
         "openedWindows": []
