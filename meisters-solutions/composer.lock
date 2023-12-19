@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86e8d56e0de43ccf8a42af3140ff9560",
+    "content-hash": "9579aa4fa5dc12899d4f21590c7d8567",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -2483,6 +2483,47 @@
                 }
             ],
             "time": "2023-11-03T13:48:07+00:00"
+        },
+        {
+            "name": "nanawel/zend-db-sql-insertmultiple",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nanawel/zend-db-sql-insertmultiple.git",
+                "reference": "73bb6aec0b22c6c8a0116b4bdee3fe9eb7763df6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nanawel/zend-db-sql-insertmultiple/zipball/73bb6aec0b22c6c8a0116b4bdee3fe9eb7763df6",
+                "reference": "73bb6aec0b22c6c8a0116b4bdee3fe9eb7763df6",
+                "shasum": ""
+            },
+            "require": {
+                "laminas/laminas-db": "~2.5",
+                "laminas/laminas-stdlib": "^2.5 || ^3.0",
+                "php": ">=5.3.23"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laminas\\Db\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "homepage": "https://github.com/nanawel/zend-db-sql-insertmultiple",
+            "keywords": [
+                "db",
+                "laminas",
+                "zf2"
+            ],
+            "support": {
+                "issues": "https://github.com/nanawel/zend-db-sql-insertmultiple/issues",
+                "source": "https://github.com/nanawel/zend-db-sql-insertmultiple/tree/2.1"
+            },
+            "time": "2022-01-08T09:59:30+00:00"
         },
         {
             "name": "nikic/php-parser",

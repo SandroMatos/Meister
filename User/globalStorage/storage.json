@@ -1104,8 +1104,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1708,8 +1707,8 @@
             "backupPath": "/home/diego/meisters/Backups/ba813d4ea8445dba145011926ba9520d",
             "uiState": {
                 "mode": 0,
-                "x": 1736,
-                "y": 251,
+                "x": 2013,
+                "y": 272,
                 "width": 671,
                 "height": 327
             }

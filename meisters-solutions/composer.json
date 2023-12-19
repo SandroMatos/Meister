@@ -30,7 +30,8 @@
         "php-kit/ext-pdo": "^1.1",
         "laminas/laminas-router": "^3.12",
         "laminas/laminas-cli": "^1.9",
-        "laminas/laminas-eventmanager": "^3.12"
+        "laminas/laminas-eventmanager": "^3.12",
+        "nanawel/zend-db-sql-insertmultiple": "^2.1"
     },
     "autoload": {
         "psr-4": {
