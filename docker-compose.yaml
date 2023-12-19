@@ -1,0 +1,40 @@
+version: '3'
+
+networks:
+  zendnet:
+    driver: bridge
+
+services:
+  zend:
+    image: docker-zend
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    tty:
+      true
+    container_name: zend
+    volumes:
+      - ./meisters-solutions:/var/www/meisters-solutions:rw
+
+    networks:
+      - zendnet
+    ports:
+      - "8000:8000"
+
+  db:
+    image: mysql:5.7
+    command: --innodb-use-native-aio=0
+    container_name: db
+    restart: always
+    tty: true
+    environment:
+      - MYSQL_DATABASE=zenddb
+      - MYSQL_USER=rootnew
+      - MYSQL_ROOT_PASSWORD=rootnew
+    volumes:
+      - ./mysql:/var/lib/mysql
+    
+    networks:
+      - zendnet
+    ports:
+      - "3306:3306"
