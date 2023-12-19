@@ -60,8 +60,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1709,8 +1708,8 @@
             "backupPath": "/home/diego/meisters/Backups/ba813d4ea8445dba145011926ba9520d",
             "uiState": {
                 "mode": 0,
-                "x": 1857,
-                "y": 617,
+                "x": 1736,
+                "y": 251,
                 "width": 671,
                 "height": 327
             }

@@ -14,7 +14,7 @@
         "laminas/laminas-component-installer": "^3.2",
         "laminas/laminas-development-mode": "^3.10",
         "laminas/laminas-skeleton-installer": "^1.2",
-        "laminas/laminas-mvc": "^3.6.0",
+        "laminas/laminas-mvc": "^3.7",
         "laminas/laminas-db": "^2.18",
         "laminas/laminas-session": "^2.17",
         "laminas/laminas-validator": "^2.45",
@@ -29,7 +29,8 @@
         "symfony/polyfill-iconv": "^1.28",
         "php-kit/ext-pdo": "^1.1",
         "laminas/laminas-router": "^3.12",
-        "laminas/laminas-cli": "^1.9"
+        "laminas/laminas-cli": "^1.9",
+        "laminas/laminas-eventmanager": "^3.12"
     },
     "autoload": {
         "psr-4": {

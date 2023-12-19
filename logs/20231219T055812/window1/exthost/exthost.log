@@ -68,3 +68,4 @@
 2023-12-19 07:56:39.696 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
 2023-12-19 07:56:39.715 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
 2023-12-19 07:57:27.177 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-12-19 10:40:55.190 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: false, activationEvent: '*'
