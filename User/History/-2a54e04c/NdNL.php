@@ -202,7 +202,7 @@ class Base {
         if(!empty($this->adapter)){
 
             $this->adapter->getDriver()->getConnection()->disconnect();
-        }
-    }
+        }
+    }
 
 }

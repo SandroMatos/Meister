@@ -63,3 +63,8 @@
 2023-12-19 07:08:40.066 [warning] [Decorations] CAPPING events from decorations provider vscode.git 620
 2023-12-19 07:08:45.091 [warning] [Decorations] CAPPING events from decorations provider vscode.git 620
 2023-12-19 07:08:50.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 620
+2023-12-19 07:22:17.972 [warning] [Decorations] CAPPING events from decorations provider vscode.git 620
+2023-12-19 07:23:39.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 621
+2023-12-19 07:56:39.696 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-12-19 07:56:39.715 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-12-19 07:57:27.177 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
